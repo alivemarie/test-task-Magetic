@@ -1,0 +1,36 @@
+.main-buttons {
+    margin: 0 auto 30px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-checkbox {
+    margin: 20px;
+}
+
+.category-items {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.loader {
+    margin: 30px auto;
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+.loader:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #7ccdc6;
+    border-color: #7ccdc6 transparent #7ccdc6 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
