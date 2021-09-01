@@ -7,8 +7,10 @@ Some styles was applied with [MaterialUI](https://material-ui.com/)
 Data fetching was implemented with [Axios](https://github.com/axios/axios)
 
 
-For instanse, you can see list of items in category Pets as default. 
+For instanse, you need to choose category to see items in it.
 By clicking on other category button you can update items, regarding to chosen category, and you will see loading spinner while data is fetcing.
+After page is reloaded, you will see previously picked category items, got from cookies.
+
 ## Available Scripts
 
 In the project directory, you can run:
