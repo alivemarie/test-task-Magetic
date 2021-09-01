@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {Button} from "@material-ui/core";
-import './category-item.css'
+import './category-item.css';
 
+// component renders one item and watchs for it's status - opened/closed details
 const CategoryItem = ({item}) => {
     const [state, setState] = useState(false)
 

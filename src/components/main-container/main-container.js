@@ -26,6 +26,7 @@ const MainContainer = () => {
         });
     }
 
+    // have not finished filtered render
     const handleFilterClick = (evt) => {
         const ids = state.categoryItems.map(item => item.id);
         const filtered = state.categoryItems.filter(({id}, index) => !ids.includes(id, index + 1));
@@ -41,10 +42,10 @@ const MainContainer = () => {
                 <Button variant="contained" color="primary"
                         onClick={() => handleChangeCategory('Plants')}>Plants</Button>
             </div>
-            <div className='filter-checkbox'>
-                <input type="checkbox" id="filter" name="filter" onClick={handleFilterClick} checked={state.filtered}/>
-                <label htmlFor="filter">Filter duplicates</label>
-            </div>
+            {/*<div className='filter-checkbox'>*/}
+            {/*    <input type="checkbox" id="filter" name="filter" onClick={handleFilterClick} checked={state.filtered}/>*/}
+            {/*    <label htmlFor="filter">Filter duplicates</label>*/}
+            {/*</div>*/}
             <div className='category-items'>
                 {state.loading ? (<div className="loader">Loading...</div>) : // if loading - shows loader spinner
                     state.categoryItems.map((item) => {
