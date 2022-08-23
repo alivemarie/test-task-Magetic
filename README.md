@@ -23,3 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+https://www.figma.com/file/JmZTmhCpgUKYNz3HK6Ce1r/TEST-MAGETIC?node-id=0%3A1
+<img width="537" alt="image" src="https://user-images.githubusercontent.com/26094215/186116995-0d75e8c6-8fd4-42a7-a45c-871544ade102.png">
+<img width="497" alt="image" src="https://user-images.githubusercontent.com/26094215/186117065-f73f155d-6163-4bc7-b205-92b5bdf12b6f.png">
+<img width="487" alt="image" src="https://user-images.githubusercontent.com/26094215/186117139-8defc57a-3c36-4588-85aa-560bbbe1c00d.png">
